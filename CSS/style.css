@@ -1,0 +1,149 @@
+*{
+    color: rgb(0, 0, 0);
+    /*reset css*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.body{
+    background-image: url(../img/poke.png);
+    background-color: whitesmoke;
+    background-position-x: center;
+
+}
+
+/*Estilos del header*/
+
+header nav ul li{
+    width: auto;
+    height: fit-content;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 30px;
+background-color: magenta;
+}
+
+.nav{
+    position: sticky;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.nav li{
+
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(180, 176, 176);
+    text-transform: uppercase;
+}
+
+/*Estilos del texto*/
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 15px;
+}
+
+h3{
+    font-size: medium;
+    text-align: center;
+}
+
+/*Estilos de imagen*/
+
+.imagenchica{
+    width: 110px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.img-maps{
+    width: 500px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.img-jugabilidad {
+    width: 600px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.bordesredondeados{
+    border-radius: 10%;
+    width: 50rem;
+}
+
+
+
+/*Estilos del footer*/
+
+footer{
+    text-align: center;
+    bottom: auto;
+    right: 850px;
+    position: absolute;
+    z-index: 0;
+    
+}
+
+
+/*Estilos de los mapas*/
+
+.maps{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 600px;
+}
+
+/*Estilos de las armas*/
+
+.armas{
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%
+    
+}
+
+.img-armas{
+    width: 50rem;
+    height: auto;
+}
+
+.bordeararmas {
+    margin: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-block;
+    
+}
+
+/*Estilos de las listas*/
+
+.main-section-div-listameta{
+    background-color: aqua;
+    display: inline-block;
+}
