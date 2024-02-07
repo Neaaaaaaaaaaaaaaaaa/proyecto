@@ -3,94 +3,114 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="../img/warzone.svg" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="../index.html"> <img src="../img/ghost.gif" class="imagenchica alt="></a>
-            <ul class="nav">
-                <li><a href="./jugabilidad.html">Jugabilidad y modos de juego</a> </li>
-                <li><a href="./meta_actual.html">Meta actual</a> </li>
-                <li><a href="./mapas.html">Mapas</a> </li>
-            </ul>
-        </nav>
+    <header class="container">
+        <div>
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item  ">
+                            <a class="nav-link active "  href="../index.html">
+                                <img src="../img/ghost.gif" alt="" class="img-fluid"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./meta_actual.html">Meta actual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./jugabilidad.html">Jugabilidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mapas.html">Mapas</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
-    <h1>Todas las Armas</h1>
-    <section class="bordeararmas" >
+    <h1 class="text-center">Todas las Armas</h1>
+    <div class="row ">
+    <section class="container border border-dark col-6 " >
 
             <legend >
                 <h2>Kar98k</h2>
             </legend>
             <div>
-                <img src="../img/kar98k.jpeg" alt="" class="img-armas">
+                <img src="../img/kar98k.jpeg" alt="" class="img-fluid ">
             </div>
             <h2>Tipo de arma: Francotirador</h2>
-
+ 
     </section>
 
-    <section class="bordeararmas">
+    <section class="container border border-dark col-6">
             <legend>
                 <h2>CR-56 AMAX</h2>
             </legend>
             <div>
-                <img src="../img/amax.png" alt="" class="img-armas">
+                <img src="../img/amax.png" alt="" class="img-fluid">
             </div>
             <h2>Tipo de arma: Rifle de asalto</h2>
     </section>
-
-    <section class="bordeararmas">
+    </div>
+    <div class="row">
+    <section class="container border border-dark col-6">
 
             <legend>
                 <h2>PULEMYOT 762</h2>
             </legend>
             <div>
-                <img src="../img/PULEMYOT 762.jpeg" alt="" class="img-armas">
+                <img src="../img/PULEMYOT762.jpeg" alt="" class="img-fluid">
             </div>
             <h2>Tipo de arma: Ametralladora ligera </h2>
 
     </section>
 
-    <section class="bordeararmas">
+    <section class="border border-dark col-6">
             <legend>
                 <h2>WSP SWARM</h2>
             </legend>
             <div>
-                <img src="../img/WSP-Swarm.jpeg" alt="" class="img-armas">
+                <img src="../img/WSP-Swarm.jpeg" alt="" class="img-fluid">
             </div>
             <h2>Tipo de arma: Subfusil </h2>
 
     </section>
-
-    <section class="bordeararmas">
+</div>
+<div class="row">
+    <section class="border border-dark col-6">
             <legend>
                 <h2>Grau 5.56</h2>
             </legend>
             <div>
-                <img src="../img/grau.png" alt="" class="img-armas">
+                <img src="../img/grau.png" alt="" class="img-fluid">
             </div>
             <h2>Tipo de arma: Fusil de asalto </h2>
     </section>
 
-    <section class="bordeararmas">
+    <section class="border border-dark col-6">
             <legend>
                 <h2>KATT-AMR</h2>
             </legend>
             <div>
-                <img src="../img/KATT-AMR.jpeg" alt="" class="img-armas">
+                <img src="../img/KATT-AMR.jpeg" alt="" class="img-fluid">
             </div>
             <h2>Tipo de arma: Francotirador </h2>
     </section>
+</div>
 </main>
-    <footer>
+    <footer class="text-center">
         <p>Todos los derechos reservados | 2023</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
